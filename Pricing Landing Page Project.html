@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 50px 15px;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .pricing-table {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+
+        .plan {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .plan:hover {
+            transform: translateY(-10px);
+        }
+
+        .plan-title {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .plan-price {
+            font-size: 2rem;
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+
+        .plan-features {
+            font-size: 1.1rem;
+            color: #777;
+            margin-bottom: 15px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Choose the best plan for you</h1>
+        <div class="pricing-table">
+            <div class="plan">
+                <h2 class="plan-title">Basic</h2>
+                <p class="plan-price">$10</p>
+                <p class="plan-features">HD IMAGES</p>
+                <p class="plan-features">HIGH QUALITY VIDEOS</p>
+                <a href="#" class="cta-button">Choose Plan</a>
+            </div>
+            <div class="plan">
+                <h2 class="plan-title">Pro</h2>
+                <p class="plan-price">$20</p>
+                <p class="plan-features">HD IMAGES</p>
+                <p class="plan-features">4K DOLBY VIDEO</p>
+                <p class="plan-features">6 MONTHS FREE</p>
+                <a href="#" class="cta-button">Choose Plan</a>
+            </div>
+            <div class="plan">
+                <h2 class="plan-title">Enterprise</h2>
+                <p class="plan-price">$30</p>
+                <p class="plan-features">HD IMAGES</p>
+                <p class="plan-features">4K DOLBY VIDEO</p>
+                <p class="plan-features">1 YEAR FREE SUBSCRIPTION</p>
+                <p class="plan-features">FREE DOWNLOADS</p>
+                <a href="#" class="cta-button">Choose Plan</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
