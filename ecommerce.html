@@ -1,0 +1,64 @@
+
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurta Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+        section {
+            margin: 20px 0;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .discount {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Kurta Store!</h1>
+        <p>Get a 30% discount on every product until January 17, 2024!</p>
+    </header>
+
+    <section>
+        <div style="text-align:center;class=product;">
+            <img src="C:\Users\HP\OneDrive\Documents\kutis.avif" alt="Kurta 1">
+            <h2 style="text-align:center;">Kurta</h2>
+            <p style="text-align:center;">Description of the kurta goes here.</p>
+            <p style= "text-align:center";class="discount">Price: $70 <del>$100</del> (30% off)</p>
+            <p style="text-align:center;">Use your credit card and get an extra 5% discount!</p>
+            <p style="text-align:center;">Total Price with Credit Card: $66.50</p>
+            <button style="color:blue;onclick=applyDiscount();text-align:center;">Add to Cart</button>
+        </div>
+
+        <!-- Add more products as needed with respective images -->
+
+    </section>
+
+    <footer><marquee>
+        <p style="color:red;">Hurry! Offer ends on January 17, 2024.</p>
+    </marquee></footer>
+
+    <script>
+        function applyDiscount() {
+            // You can implement your own logic here to add the product to the cart and calculate the total price.
+            alert("Product added to cart! Check your cart for the discounted price.");
+        }
+    </script>
+</body>
+</html>
